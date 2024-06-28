@@ -16,9 +16,11 @@ export default class ListItem implements Item {
     ) {}
 
     //implement the interface with getters and setters
+    //Getter method allows you to access the value of a property
     get id(): string {
         return this._id
     }
+    //setter method enables you to modify the value of a property with certain validations or actions
     set id(id: string) {
         this._id = id
     }
